@@ -1,0 +1,208 @@
+html,body{
+    height:100%;
+    width: 100%;
+    margin :0;
+    padding:0;
+
+}
+.leftflex img{
+
+    padding-left:   72px 0;
+    width:78px;
+    height:43px;
+
+}
+
+.container{
+   
+
+ max-width:100%;
+ background: rgb(242, 237, 237);
+ margin:auto;
+
+
+}
+nav ul li {
+    list-style: none;
+    display: flex;
+
+}
+.leftflex ul {
+    display:flex;
+justify-content: space-evenly;
+    gap:2rem;
+
+
+}
+
+nav{
+    padding-left: 14px;
+    
+   
+}
+
+header{
+
+
+position:sticky;
+top: 0;background: rgb(143, 100, 100);
+
+}
+
+.containerHeader{
+    padding:0 10vw;
+
+}
+header{
+    box-shadow: 10px 10px 5px 6px lightblue;
+}
+
+
+.rightBox{display:flex;
+    margin: 12px;
+    
+
+}
+
+@media (max-width:450px)
+{
+    header{
+        background: red;
+        height:122px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .right{
+        flex-direction: column;
+
+        display: flex;
+        margin: 12px;
+    }
+    .rightBox{display:flex;
+        margin: 12px;
+        margin-right: 2rem;
+
+        
+
+    }
+
+    nav ul li {
+        list-style: none;
+        padding:0 4px;
+        font-size: 10px;
+    }
+
+    .containerHeader{
+        padding:0 2vw ;
+
+    }
+    .rightflex input{
+        margin-top:23px;
+
+    }
+}
+
+
+
+
+nav{
+
+}
+.rightflex{
+    display: flex;
+    margin-top:3rem ;
+   
+
+
+}
+
+
+.profile {
+    gap:2rem;
+justify-content: space-evenly;
+}
+
+.section1{
+    margin-top: 1rem;
+    background: #ffffff;
+
+
+
+  
+
+}
+
+.homeimg{
+    height:40vw;
+    width:100%;
+
+}
+.itemimg{
+    width:10vw;
+    padding:23px;
+
+    padding: 13px;
+    margin-left: 4px;
+   
+
+}
+footer{
+    padding:23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 /24%) 0px 3px 8px ;
+}
+
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.rightBox{
+    gap: 23px;
+}
+
+@media (max-width:450px)
+{
+    header{
+        background: red;
+        height:122px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .right{
+        flex-direction: column;
+
+        display: flex;
+        margin: 12px;
+    }
+    .rightBox{display:flex;
+        margin: 12px;
+        margin-right: 2rem;
+
+        
+
+    }
+
+    nav ul li {
+        list-style: none;
+        padding:0 4px;
+        font-size: 10px;
+    }
+
+    .container{
+        padding:0 2vw ;
+        
+    }
+    .rightflex input{
+        margin-top:23px;
+
+    }
+}
+
+
